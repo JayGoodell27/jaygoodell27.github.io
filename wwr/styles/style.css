@@ -1,0 +1,21 @@
+body {
+    background-color:Bc6c22;
+}
+h1 {
+    background-color: rgba(158, 5, 5, 0.747);
+    padding: 0 150px 50px 10px;
+    border: 1px solid black;
+    margin: 50px;
+    width: 1000px;
+}
+.latin {
+    font-size: 45px;
+    color:rgb(204, 133, 0);
+    text-align: center;
+    padding: 30px;
+    max-width: 1000px;
+    line-height: 1.8em;
+}
+#fancy {
+    font-style: "Efesis", ;
+}
