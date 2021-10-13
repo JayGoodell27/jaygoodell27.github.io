@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-rows: .60fr .40fr;
+    margin:0;
+}
+.upper{
+    min-height: 60vh;
+    max-height: 60vh;
+    background-image: url("../images/download.jpg");
+    background-size: cover;
+    max-height: fit-content;
+    
+    
+}
+
+body h1{
+    text-align: right;
+    margin-right: 10vh;
+    font-size: 50px;
+    margin-top:30vh;
+    font-family: 'Poppins', sans-serif;
+}
+body h2{
+    text-align: right;
+    margin-right: 10vh;
+    color: #414141;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.lower{
+    justify-items: center;
+    min-height: 40vh;
+    max-height: 40vh;
+    display: grid;
+    background-color: #737373;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+.icon{
+    max-width: 50%;
+    border-radius: 360px;
+    border: 10px solid #444444;
+    margin-top:5vh;
+}

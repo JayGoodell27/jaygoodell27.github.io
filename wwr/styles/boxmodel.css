@@ -1,0 +1,47 @@
+body {
+    background-color: lime;
+}
+.about {
+    background-color: plum;
+    padding:30px;
+    border-radius: 30px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 40px;
+}
+.about h2 {
+    color: purple;
+}
+.contact {
+    background-color: royalblue;
+    border: 1p solid black;
+}
+.contact p {
+    color: white;
+}
+.info {
+    width: 150px;
+    border-radius: 150px;
+    background-color: thistle;
+    text-align: center;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+.info h2 {
+    font-size:  30px;
+}
+main {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+}
+main section {
+    border: 1px dotted black;
+}
+.div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
