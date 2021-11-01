@@ -13,6 +13,8 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .icon {
     width: 80px;
@@ -23,10 +25,16 @@ h2 {
 }
 header {
     background-color: #F1FAEE;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 #content{
     max-width: 1600px; 
     margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     text-align: center;
