@@ -183,7 +183,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -223,4 +223,4 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
-}
+} */
