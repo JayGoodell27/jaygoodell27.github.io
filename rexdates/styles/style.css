@@ -69,7 +69,9 @@ p {
 }
 .boxs img {
   border-radius: 10px;
+  width: 90%;
 }
+
 .fall {
     box-sizing: border-box;
     border-radius: 10px;
